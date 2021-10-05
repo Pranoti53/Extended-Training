@@ -2,9 +2,9 @@ package com.hsbc.example;
 
 public class Loop {
 	public static void main(String[] args) {
-		for(int i=0;i<args.length;i++)
+		for(String i:args)
 		{
-			System.out.println(args[i]);
+			System.out.println(i);
 		}
 	}
 
